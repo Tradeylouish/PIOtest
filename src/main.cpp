@@ -40,7 +40,7 @@ void loop()
     digitalWrite(LED_BUILTIN, HIGH);
 
     // wait for a second
-    delay(500);
+    delay(1000);
 
     // turn the LED off by making the voltage LOW
     digitalWrite(LED_BUILTIN, LOW);
@@ -48,5 +48,5 @@ void loop()
     debugln("Hello World");
 
     // wait for a second
-    delay(500);
+    delay(1000);
 }
